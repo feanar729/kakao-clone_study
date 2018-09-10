@@ -6,59 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>profile</title>
+  <title>Profile</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header class="top-header">
-    <div class="header_top">
-      <div class="header_column">
+  <header class="top-header top-header--transparent">
+    <div class="header__top">
+      <div class="header__column">
         <i class="fa fa-fighter-jet" aria-hidden="true"></i>
         <i class="fa fa-wifi"></i>
       </div>
-      <div class="header_column">
-        <div class="header_time">18:38</div>
+      <div class="header__column">
+        <div class="header__time">18:38</div>
       </div>
-      <div class="header_column">
+      <div class="header__column">
         <i class="fa fa-moon-o"></i>
         <i class="fa fa-bluetooth"></i>
-        <span class="header_battery">66%
+        <span class="header__battery">66%
           <i class="fa fa-battery"></i>
         </span>
       </div>
     </div>
-    <div class="header_bottom">
-      <div class="header_colomn">
-      </div>
-      <div class="header_colomn">
+    <div class="header__bottom">
+      <div class="header__column">
         <a href="./index.html">
           <i class="fa fa-times fa-lg"></i>
         </a>
       </div>
-      <div class="header_colomn">
+      <div class="header__column">
+      </div>
+      <div class="header__column">
         <i class="fa fa-user fa-lg"></i>
       </div>
     </div>
   </header>
   <main class="profile">
     <header class="profile__header">
-      <img src="./image/test.jpg" alt="">
-      <h3 class="profile__header-title">Leo</h3>
-    </header>
-    <input type="text" placeholder="test@gmail.com">
-    <div class="profile__actions">
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fa fa-comment fa-2x"></i>
-        </span>
-        <span class="profile__action-title">My Chatroom</span>
+      <div class="profile__header-container">
+        <img src="./image/test.jpg" alt="">
+        <h3 class="profile__header-title">Leo</h3>
       </div>
-      <div class="profile__action">
-        <span class="profile__action-circle">
-          <i class="fa fa-pencil fa-2x"></i>
-        </span>
-        <span class="profile__action-title">Edit Profile</span>
+    </header>
+    <div class="profile__container">
+      <input type="text" placeholder="test@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fa fa-comment fa-lg"></i>
+          </span>
+          <span class="profile__action-title">My Chatroom</span>
+        </div>
+        <div class="profile__action">
+          <span class="profile__action-circle">
+            <i class="fa fa-pencil fa-lg"></i>
+          </span>
+          <span class="profile__action-title">Edit Profile</span>
+        </div>
       </div>
     </div>
   </main>
